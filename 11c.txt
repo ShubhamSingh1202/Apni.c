@@ -1,0 +1,6 @@
+What is a Memory Leak in C?
+A memory leak happens when:
+
+🧵 You dynamically allocate memory using malloc, calloc, or realloc, but forget to free it using free().
+
+As a result, the memory remains reserved and unusable, even though it’s no longer needed.

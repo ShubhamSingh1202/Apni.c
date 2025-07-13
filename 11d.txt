@@ -1,0 +1,8 @@
+***Search & find out which is better malloc( ) or calloc ( )***
+
+| Feature            | `malloc()`                         | `calloc()`                                      |
+| ------------------ | ---------------------------------- | ----------------------------------------------- |
+| **Initialization** | ❌ Doesn't initialize memory       | ✅ Initializes memory to zero                  |
+| **Syntax**         | `malloc(size_in_bytes)`            | `calloc(num_elements, size_of_each_element)`    |
+| **Speed**          | ⚡ Slightly faster                 | 🐢 Slightly slower (due to zero-initialization)|
+| **Use Case**       | When initialization isn't required | When you need clean (zeroed) memory             |

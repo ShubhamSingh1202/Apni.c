@@ -1,0 +1,6 @@
+S No. Name            Marks      SGPA       Course    
+---------------------------------------------------------------
+
+1     Rishabh Singh  700        8.400000   btech     
+2     Shubham Singh   701        8.770000   Btech     
+3     Disha Singh     20         3.000000   bsc       

@@ -1,0 +1,7 @@
+***Search about what is a 'dangling pointer' in C***
+
+
+int *f=(int*)malloc(4*sizeof(int));
+free(f);
+f=NULL;  // dangling pointer
+
